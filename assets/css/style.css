@@ -1,0 +1,608 @@
+/*======================================================
+Author Name: Somnath Sikder
+Template Name: Business Website
+Tags: Html, Css, Bootstrap, jQuery, Javascript
+========================================================*/
+
+/*======================================================
+Table Of Content:
+1. Global Css
+2. Typhography
+3. Common Style
+4. Header Section
+5. Banner Section
+6. About Us
+7. Counter Section 
+8. Our Services 
+9. Testimonials 
+10. Events Pricing Package
+11. Our Team
+12. Booking Table Form
+13. Gallery
+14. Map
+15. Contact Us Form
+16. Footer
+========================================================*/
+
+/*================
+Global Css
+==================*/
+
+body{
+	padding: 0;
+	margin: 0;
+	color: #3a3a3a;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+	color: #3a3a3a;
+	font-size: 14px;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*================
+Typhography
+==================*/
+
+h1{
+	font-size: 50px;
+	line-height: 65px;
+}
+
+h2{
+	font-size: 40px; 
+	line-height: 50px;
+}
+
+h3{
+	font-size: 30px;
+	line-height: 40px;
+}
+
+h4{
+	font-size: 20px;
+	line-height: 30px;
+}
+
+h5{
+	font-size: 18px;
+	line-height: 28px;
+}
+
+h6{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/*================
+Common Style
+==================*/
+
+.section-padding{
+	padding: 70px 0;
+}
+
+.short-section-padding{
+	padding: 50px 0;
+}
+
+.section-bg{
+	background-color: #EEEEEE;
+}
+
+.section-title{
+	margin-bottom: 30px;
+}
+
+.section-title h2{
+	letter-spacing: 6px;
+	font-size: 20px;
+}
+
+.section-title p{
+	font-size: 48px;
+	font-weight: 400;
+}
+
+
+.read-more {
+	border: 1px solid red;
+	padding: 10px 40px;
+	border-radius: 30px;
+	background: red;
+	color: #fff;
+}
+
+span{
+	color: #D42F2F;
+}
+
+/*=====================
+Header Section  
+=======================*/
+
+section.header-area {
+	background: #fff;
+	padding: 10px 0;
+	position: sticky;
+	width: 100%;
+	top: 0;
+	z-index: 9999;
+	box-shadow: 0px 0px 4px rgb(0 0 0 / 20%);
+}
+
+.logo a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.menu-area {
+	text-align: center;
+}
+
+.menu-area ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.menu-area ul li a {
+	text-decoration: none;
+	color: #827c7c;
+	display: inline-block;
+	line-height: 39px;
+}
+
+
+/*=====================
+Banner Section  
+=======================*/
+
+.banner-inner-content h2 {
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+
+.banner-inner-content p {
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+
+
+.banner-image {
+	margin-left: 100px;
+}
+
+/*=====================
+About Section 
+=======================*/
+
+.about-inner-left{
+	background-image: url(../images/about.jpg);
+	width: 100%;
+	height: 668px;
+}
+
+.about-inner-right {
+	margin-left: 20px;
+}
+
+.about-inner-left {
+	margin-right: 20px;
+}
+
+.about-inner-right ul li i {
+	color: #D42F2F;
+	margin-right: 4px;
+}
+
+.about-inner-right p {
+	font-size: 16px;
+}
+
+
+
+/*=======================
+Why Choose US Section
+=========================*/
+
+.choose-us-inner-content {
+	background: #fff;
+	text-align: center;
+	padding: 40px;
+}
+
+.choose-us-inner-content i {
+	color: #CE1212;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.choose-us-inner-content h4 {
+	margin-bottom: 25px;
+}
+
+
+.why-inner {
+	background: #CE1212;
+	padding: 40px;
+}
+
+.why-inner h3 {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.why-inner p {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+
+/*=======================
+Counter Section
+=========================*/
+
+.count-area{
+	background-image: url(../images/stats-bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	padding: 130px;
+}
+
+section.count-area::after {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.count-inner-content h2 {
+	color: #fff;
+}
+
+.count-inner-content p {
+	color: #e2e0dc;
+	font-size: 18px;
+}
+
+.count-inner-content {
+	z-index: 9;
+	position: relative;
+	text-align: center;
+}
+
+
+/*=======================
+Food Menu Section
+=========================*/
+
+.food-menu-nav ul li {
+	list-style: none;
+	margin-right: 15px;
+	display: inline-block;
+}
+
+.food-menu-nav {
+	text-align: center;
+}
+
+.food-menu-nav ul li a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+	/*background: #CE1212;*/
+	padding: 6px 10px;
+}
+
+
+.food-menu-nav .active {
+	color: #CE1212;
+}
+
+.service-box.text-center img {
+	padding: 0px 50px;
+	margin-bottom: 20px;
+}
+
+.service-box.text-center h3 {
+	margin-bottom: 10px;
+}
+
+.service-box.text-center p {
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.service-box.text-center h4 {
+	font-size: 24px;
+	color: red;
+}
+
+
+
+
+
+/*=======================
+Testimonial Section
+=========================*/
+
+div#slider {
+    margin-top: 15px;
+}
+
+.img-area {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.img-area img {
+	width: 100%;
+}
+
+.content {
+    text-align: center;
+    padding: 40px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #fff;
+    margin: 0 10px;
+}
+
+.content h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.content p {
+    line-height: 20px;
+}
+
+p.socials {
+    margin-top: 30px;
+}
+
+p.socials i {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.owl-dots{
+	text-align: center;
+	margin-top: 3%;
+}
+
+.owl-dot{
+	display: inline-block;
+	height: 20px !important;
+	width:  20px !important;
+	background-color: #fafafa !important;
+	opacity: .8;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+
+.owl-dot.active{
+	/*background-color: #fff !important;*/
+}
+/*=======================
+Pricing Section
+=========================*/
+
+.price-image-single {
+	position: relative;
+}
+
+.price-inner-content {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 25px;
+	z-index: 10;
+}
+
+.price-image-single::after {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.price-inner-content h3 {
+	color: #fff;
+}
+
+.price-inner-content h4 {
+	color: #fff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.price-inner-content p {
+	color: #fff;
+	font-size: 16px;
+}
+
+/*=======================
+Our Team Section
+=========================*/
+
+.team-single img {
+	border-radius: 10px 10px 0 0 ;
+}
+
+.team-inner-content {
+	text-align: center;
+	background: #fff;
+	padding: 20px;
+	height: 220px;
+	border-radius: 0 0 10px 10px;
+}
+
+.team-inner-content h3 {
+	font-size: 24px;
+}
+
+.team-inner-content h5 {
+	font-size: 18px;
+	color: #3a3a3a;
+	margin-bottom: 10px;
+}
+
+.team-inner-content p {
+	font-size: 16px;
+}
+
+/*=======================
+Booking Form Section
+=========================*/
+.single-field input {
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid #8C939A;
+	height: 50px;
+	padding: 0 10px;
+}
+
+.single-field textarea {
+	width: 100%;
+	border: 1px solid #8C939A;
+	border-radius: 4px;
+}
+
+.single-field {
+	margin-bottom: 20px;
+}
+
+/*=======================
+Gallery Section
+=========================*/
+.gallery-single-img {
+	border: 6px solid #CE1212;
+	padding: 10px;
+}
+
+
+
+
+/*=======================
+Google Map Section
+=========================*/
+
+.location-icon {
+	float: left;
+	margin-right: 25px;
+}
+
+.location-icon i {
+	font-size: 30px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+
+.location-inner-content h3 {
+	color: #6C757D;
+	font-size: 34px;
+}
+
+.location-inner-content p {
+	font-size: 16px;
+	color: #2F3337;
+}
+
+
+
+/*=======================
+Footer Section
+=========================*/
+.footer-area{
+	background: #1F1F24;
+}
+
+.footer-icon {
+	float: left;
+	margin-right: 25px;
+}
+
+.footer-icon i {
+	font-size: 20px;
+	color: #BCB7A5;
+	padding: 10px;
+}
+
+.footer-inner-content {
+	float: left;
+}
+
+.footer-inner-content h3 {
+	color: #CDF4FF;
+	font-size: 24px;
+}
+
+.footer-inner-content p {
+	color: #CDF4FF;
+}
+
+.footer-social-icon i {
+	margin-right: 10px;
+	font-size: 20px;
+	margin-top: 10px;
+	color: #CDF4FF;
+}
+
+.footer-social-content h3 {
+	color: #CDF4FF;
+	font-size: 24px;
+}
+
+hr{
+	color: #fff;
+}
+
+.footer-last-content h4 {
+	color: #A3BCB4;
+	font-size: 16px;
+}
+
+.footer-last-content p {
+	color: #A3BCB4;
+}
